@@ -1,19 +1,18 @@
-# Dependencies
-**/node_modules
+node_modules/
+**/node_modules/
 
-# Environment variables
 .env
 backend/.env
 frontend/.env
 
-# Build folders
-frontend/build
-frontend/dist
+build/
+dist/
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
 
-# Logs
 *.log
-
-# Misc
 .DS_Store
 .env.local
 .env.development.local
